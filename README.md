@@ -1,18 +1,19 @@
-SpreeChimpy
+Sprangular Chimpy
 ===========
 
-Introduction goes here.
+Mailchimp integration for [sprangular](https://github.com/sprangular/sprangular)
 
 Installation
 ------------
 
-Add spree_chimpy to your Gemfile:
+Add sprangular_chimpy & [spree_chimpy](https://github.com/DynamoMTL/spree_chimpy) to your Gemfile:
 
 ```ruby
-gem 'spree_chimpy'
+gem 'spree_chimpy',      github: 'DynamoMTL/spree_chimpy'
+gem 'sprangular_chimpy', github: 'sprangular/sprangular_chimpy'
 ```
 
-Bundle your dependencies and run the installation generator:
+Bundle your dependencies and run the spree_chimpy installation generator:
 
 ```shell
 bundle
@@ -29,11 +30,4 @@ bundle
 bundle exec rake
 ```
 
-When testing your applications integration with this extension you may use it's factories.
-Simply add this require statement to your spec_helper:
-
-```ruby
-require 'spree_chimpy/factories'
-```
-
-Copyright (c) 2015 [name of extension creator], released under the New BSD License
+Copyright (c) 2015 Dynamo, released under the New BSD License
