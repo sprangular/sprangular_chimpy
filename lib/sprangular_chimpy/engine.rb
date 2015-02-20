@@ -2,7 +2,7 @@ module SpreeChimpy
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_chimpy'
+    engine_name 'sprangular_chimpy'
 
     # use rspec for tests
     config.generators do |g|
