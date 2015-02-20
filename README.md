@@ -20,7 +20,7 @@ bundle
 bundle exec rails g spree_chimpy:install
 ```
 
-Add dependency to your host apps module:
+Add `Sprangular.Chimpy` module as a dependency to your host apps module:
 
 ```coffee
 angular.module 'MyApp', ['Sprangular', 'Sprangular.Chimpy']
