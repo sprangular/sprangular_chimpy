@@ -26,6 +26,12 @@ Add dependency to your host apps module:
 angular.module 'MyApp', ['Sprangular', 'Sprangular.Chimpy']
 ```
 
+Include `chimpy/subscribe.html` somewhere in your layout (in footer is recommended):
+
+```html
+  <ng-include src="'chimpy/subscribe.html'"/>
+```
+
 Testing
 -------
 
