@@ -20,6 +20,10 @@ bundle
 bundle exec rails g spree_chimpy:install
 ```
 
+Add the following to your application.js:
+
+//= require sprangular/chimpy
+
 Add `Sprangular.Chimpy` module as a dependency to your host apps module:
 
 ```coffee
